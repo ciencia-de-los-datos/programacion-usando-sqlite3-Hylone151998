@@ -38,3 +38,8 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select 
+    *
+FROM tbl2
+order by c21 limit 1;
+
