@@ -43,3 +43,8 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+select
+    *
+from tbl1
+where K0 <> "A" and K0 <> "B" and c13 <> 200 and c13 <> 900
+order by c14;
